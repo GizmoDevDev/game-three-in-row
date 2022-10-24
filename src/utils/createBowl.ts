@@ -7,5 +7,6 @@ export const createBowl = (): BowlItem => {
     uuid,
     type,
     isActive: false,
+    needDestroy: false,
   }
 }

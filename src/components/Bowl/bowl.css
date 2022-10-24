@@ -50,4 +50,8 @@
     .active-bowl {
         scale: 1.2;
     }
+
+    .invisible {
+        opacity: 0;
+    }
 }
