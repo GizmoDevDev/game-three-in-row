@@ -46,4 +46,8 @@
              @apply bg-purple-500;
          }
     }
+
+    .active-bowl {
+        scale: 1.2;
+    }
 }
