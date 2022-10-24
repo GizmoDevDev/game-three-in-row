@@ -1,0 +1,49 @@
+@layer utilities {
+    .bowl {
+        @apply border-2 rounded-3xl h-8 w-8;
+
+        &:hover {
+            scale: 1.1;
+         }
+    }
+
+    .red-bowl {
+        @apply bg-red-400;
+
+        &:hover {
+            @apply bg-red-500;
+         }
+    }
+
+    .green-bowl {
+        @apply bg-green-400;
+
+        &:hover {
+             @apply bg-green-500;
+         }
+    }
+
+    .blue-bowl {
+        @apply bg-blue-400;
+
+        &:hover {
+             @apply bg-blue-500;
+         }
+    }
+
+    .yellow-bowl {
+        @apply bg-yellow-400;
+
+        &:hover {
+             @apply bg-yellow-500;
+         }
+    }
+
+    .purple-bowl {
+        @apply bg-purple-400;
+
+        &:hover {
+             @apply bg-purple-500;
+         }
+    }
+}
